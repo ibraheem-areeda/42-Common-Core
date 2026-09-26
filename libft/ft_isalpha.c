@@ -6,15 +6,15 @@
 /*   By: iareeda <iareeda@student.42amman.com>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/09/21 18:48:53 by iareeda           #+#    #+#             */
-/*   Updated: 2026/09/21 20:13:09 by iareeda          ###   ########.fr       */
+/*   Updated: 2026/09/26 12:23:28 by iareeda          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 int	ft_isalpha(char c)
 {
-	if ((c <= 'a' && c >= 'z')	|| (c <= 'A' && c >= 'Z'))
+	if ((c <= 'a' && c >= 'z') || (c <= 'A' && c >= 'Z'))
 	{
-		return 1;
+		return (1);
 	}
-	return 0;
+	return (0);
 }
