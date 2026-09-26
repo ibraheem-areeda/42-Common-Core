@@ -6,11 +6,11 @@
 /*   By: iareeda <iareeda@student.42amman.com>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/09/26 12:35:59 by iareeda           #+#    #+#             */
-/*   Updated: 2026/09/26 12:44:14 by iareeda          ###   ########.fr       */
+/*   Updated: 2026/09/26 12:58:28 by iareeda          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-int	ft_isascii(char c)
+int	ft_isascii(int c)
 {
 	if (c >= 0 && c <= 127)
 	{

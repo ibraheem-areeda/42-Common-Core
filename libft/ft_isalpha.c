@@ -6,11 +6,11 @@
 /*   By: iareeda <iareeda@student.42amman.com>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/09/21 18:48:53 by iareeda           #+#    #+#             */
-/*   Updated: 2026/09/26 12:46:26 by iareeda          ###   ########.fr       */
+/*   Updated: 2026/09/26 12:58:18 by iareeda          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-int	ft_isalpha(char c)
+int	ft_isalpha(int c)
 {
 	if ((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z'))
 	{
