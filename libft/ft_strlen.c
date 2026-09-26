@@ -6,27 +6,25 @@
 /*   By: iareeda <iareeda@student.42amman.com>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/09/26 13:24:56 by iareeda           #+#    #+#             */
-/*   Updated: 2026/09/26 14:07:10 by iareeda          ###   ########.fr       */
+/*   Updated: 2026/09/26 14:13:03 by iareeda          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-size_t ft_strlen(const char *s)
+size_t	ft_strlen(const char *s)
 {
-	int i;
-	
+	int	i;
+
 	i = 0;
-	
 	while (s[i] != '\0')
 	{
 		i++;
 	}
-	
 	return (i);
 }
 
 // int main()
 // {
-// 	printf("%zu", ft_strlen("test"));
+// 	printf("%zu", ft_strlen(" "));
 // }
